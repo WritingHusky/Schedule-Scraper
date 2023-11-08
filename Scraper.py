@@ -37,7 +37,10 @@ for table in scheduleTables:
     tableData = table.find_all("td",{"class": "dddefault"})
     classInfo =[]
     for info in tableData:
-        classInfo.append(str(info.text))
+        if issubclass(type(info.text),str):
+            classInfo.append(str(info.text))
+        else:
+            classInfo.append("TBA")
     # "Type","Time","Days","Location","Date Range", "Schedule Type", "Instructor"
     if "(P)" in classInfo[6]:
         classInfo[6] = classInfo[6].replace("(P)","")
@@ -54,22 +57,22 @@ for table in scheduleTables:
     
     # Add title data
     for titleInfo in titleList.pop(0):
-        titleInfo = titleInfo.replace("S0","").strip()
         classInfo.append(titleInfo)
         
     # repeat if days repeat
     days = classInfo.pop(1).strip()
-    # print(days)
-    length = len(days)
-    # print(length)
-    for day in days:
-        # print(i)
-        newList = classInfo.copy()
-        # print(newList)
-        newList.append(day)
-        # print(newList)
-        classesList.append(newList)
-        # print("AHHH ----")
+    if days != "TBA":
+        # print(days)
+        length = len(days)
+        # print(length)
+        for day in days:
+            # print(i)
+            newList = classInfo.copy()
+            # print(newList)
+            newList.append(day)
+            # print(newList)
+            classesList.append(newList)
+            # print("AHHH ----")
         
 # print(classesList)
 
@@ -83,5 +86,4 @@ with open(fileName, 'w', newline='') as csvfile:
         # print(row)
         writer.writerow(row)
     # writer.writerows(classesList)
-    
     

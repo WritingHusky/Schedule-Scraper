@@ -1,0 +1,37 @@
+Type,Location,Date Range,Schedule Type,Instructor,Start,End,CRN,Course,Section,Days
+Class,Old Main Building 2422,"Jan 03, 2024 - Apr 20, 2024",Lecture,Md Erfanul   Hoque ,8:30 am , 9:45 am,20529,DASC 5420,01,T
+Class,Old Main Building 2422,"Jan 03, 2024 - Apr 20, 2024",Lecture,Md Erfanul   Hoque ,8:30 am , 9:45 am,20529,DASC 5420,01,F
+Class,Old Main Building 1241,"Jan 03, 2024 - Apr 20, 2024",Seminar,TBA,8:30 am , 9:20 am,20530,DASC 5420,1,M
+Class,Arts and Education 108,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jabed H.  Tomal ,11:30 am , 12:45 pm,22098,DASC 6510,01,M
+Class,Arts and Education 108,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jabed H.  Tomal ,11:30 am , 12:45 pm,22098,DASC 6510,01,W
+Class,Old Main Building 2621,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,8:30 am , 9:45 am,22237,DASC 6510,02,W
+Class,Old Main Building 2621,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,8:30 am , 9:45 am,22237,DASC 6510,02,F
+Class,Old Main Building 1241,"Jan 03, 2024 - Apr 20, 2024",Seminar,Mohamed A  Tawhid ,10:30 am , 11:20 am,20534,DASC 6810,01,M
+Class,Old Main Building 2652,"Jan 03, 2024 - Apr 20, 2024",Lecture,Ihor   Stasyuk ,2:30 pm , 3:20 pm,21513,STAT 1200,01,M
+Class,Old Main Building 2652,"Jan 03, 2024 - Apr 20, 2024",Lecture,Ihor   Stasyuk ,2:30 pm , 3:20 pm,21513,STAT 1200,01,W
+Class,Old Main Building 2652,"Jan 03, 2024 - Apr 20, 2024",Lecture,Ihor   Stasyuk ,2:30 pm , 3:20 pm,21513,STAT 1200,01,F
+Class,Old Main Building 2761,"Jan 03, 2024 - Apr 20, 2024",Lecture,Md Erfanul   Hoque ,2:30 pm , 3:20 pm,21514,STAT 1200,02,T
+Class,Old Main Building 2761,"Jan 03, 2024 - Apr 20, 2024",Lecture,Md Erfanul   Hoque ,2:30 pm , 3:20 pm,21514,STAT 1200,02,W
+Class,Old Main Building 2761,"Jan 03, 2024 - Apr 20, 2024",Lecture,Md Erfanul   Hoque ,2:30 pm , 3:20 pm,21514,STAT 1200,02,F
+Class,Old Main Building 2651,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,4:30 pm , 5:20 pm,21515,STAT 1200,03,T
+Class,Old Main Building 2651,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,4:30 pm , 5:20 pm,21515,STAT 1200,03,W
+Class,Old Main Building 2651,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,4:30 pm , 5:20 pm,21515,STAT 1200,03,F
+Class,Old Main Building 1330,"Jan 03, 2024 - Apr 20, 2024",Seminar,Ihor   Stasyuk ,8:30 am , 9:45 am,21516,STAT 1200,1,T
+Class,Old Main Building 1355,"Jan 03, 2024 - Apr 20, 2024",Seminar,Md Erfanul   Hoque ,8:30 am , 9:45 am,21517,STAT 1200,2,M
+Class,Old Main Building 1327,"Jan 03, 2024 - Apr 20, 2024",Seminar,Jianping   Yu ,11:30 am , 12:45 pm,21518,STAT 1200,3,M
+Class,Old Main Building 1732,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,1:30 pm , 2:20 pm,21519,STAT 2000,01,T
+Class,Old Main Building 1732,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,1:30 pm , 2:20 pm,21519,STAT 2000,01,W
+Class,Old Main Building 1732,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,1:30 pm , 2:20 pm,21519,STAT 2000,01,F
+Class,Old Main Building 1330,"Jan 03, 2024 - Apr 20, 2024",Seminar,Jianping   Yu ,1:00 pm , 2:15 pm,21520,STAT 2000,1,M
+Class,Arts and Education 108,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jabed H.  Tomal ,11:30 am , 12:45 pm,22235,STAT 4990,01,M
+Class,Arts and Education 108,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jabed H.  Tomal ,11:30 am , 12:45 pm,22235,STAT 4990,01,W
+Class,Old Main Building 2621,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,8:30 am , 9:45 am,22238,STAT 4990,02,W
+Class,Old Main Building 2621,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jianping   Yu ,8:30 am , 9:45 am,22238,STAT 4990,02,F
+Class,Old Main Building 1345,"Jan 03, 2024 - Apr 20, 2024",Seminar,TBA,8:30 am , 9:20 am,22236,STAT 4990,1,F
+Class,Old Main Building 1345,"Jan 03, 2024 - Apr 20, 2024",Seminar,Jianping   Yu ,8:30 am , 9:20 am,22239,STAT 4990,2,R
+Class,Arts and Education 108,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jabed H.  Tomal ,1:00 pm , 2:15 pm,21525,STAT 5310,01,M
+Class,Arts and Education 108,"Jan 03, 2024 - Apr 20, 2024",Lecture,Jabed H.  Tomal ,1:00 pm , 2:15 pm,21525,STAT 5310,01,W
+Class,Old Main Building 2216,"Jan 03, 2024 - Apr 20, 2024",Seminar,Jabed H.  Tomal ,8:30 am , 9:20 am,21526,STAT 5310,1,W
+Class,Old Main Building 2422,"Jan 03, 2024 - Apr 20, 2024",Lecture,Mateen   Shaikh ,10:00 am , 11:15 am,21527,STAT 5320,01,T
+Class,Old Main Building 2422,"Jan 03, 2024 - Apr 20, 2024",Lecture,Mateen   Shaikh ,10:00 am , 11:15 am,21527,STAT 5320,01,R
+Class,Arts and Education 164,"Jan 03, 2024 - Apr 20, 2024",Seminar,Mateen   Shaikh ,4:30 pm , 5:20 pm,21528,STAT 5320,1,F

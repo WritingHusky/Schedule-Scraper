@@ -1,3 +1,4 @@
+from operator import itemgetter
 import tkinter
 from tkinter import filedialog
 from bs4 import BeautifulSoup
@@ -20,6 +21,7 @@ classesList = []
 header = ["Type", "Location", "Date Range", "Schedule Type", "Instructor", "Start", "End", "CRN", "Course", "Section", "Days"]
 # Need: crn, course, section, split times
 # Loop through each table and associate title information
+headercopy = header.copy()
 for table, title in zip(scheduleTables, soup.find_all("th", {"class": "ddtitle"})):
 
     # find the data
@@ -47,9 +49,9 @@ for table, title in zip(scheduleTables, soup.find_all("th", {"class": "ddtitle"}
         classInfo.append(info)
     
     # Add title data
-    header = title.a.text.split('-')
-    header.pop(0)
-    for thing in header:
+    headercopy = title.a.text.split('-')
+    headercopy.pop(0)
+    for thing in headercopy:
         classInfo.append(thing)
 
     # repeat if days repeat
@@ -60,7 +62,22 @@ for table, title in zip(scheduleTables, soup.find_all("th", {"class": "ddtitle"}
             newList.append(day)
             classesList.append(newList)
 
-# print(classesList)
+
+# Formating the output
+#       ["Type", "Location", "Date Range", "Schedule Type", "Instructor", "Start", "End", "CRN", "Course", "Section", "Days"]
+order = [  7,       6,              9,          10,              8,          3,        4,    0,      1,          2,      5]
+newClassesList = []
+def sortArray(array):
+    newArray = [None] * 11
+    for index, element in zip(order, array):
+        newArray[index] = element
+    return newArray
+    
+for array in classesList:
+    newClassesList.append(sortArray(array))
+header = sortArray(header)
+classesList = newClassesList
+
 
 fileName = "Schedule.csv"
 

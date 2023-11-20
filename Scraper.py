@@ -73,14 +73,11 @@ def main():
         # Process each table and associate title information.
         classesList.extend(process_table_data(table, title))
 
-    # Default columns to include in the CSV file
-    default_columns = ["Type", "Location", "Date Range", "Schedule Type", "Instructor", "Start", "End", "CRN", "Course", "Section", "Days"]
-
     # Define the order of columns for sorting
     order = [7, 6, 9, 10, 8, 3, 4, 0, 1, 2, 5]
 
     # Filter columns based on default or user input
-    header = [default_columns[i] for i in order if i < len(default_columns)]
+    header = ["CRN", "Course", "Section", "Start", "End", "Day", "Location", "Schedule Type", "Instructor", "Date Range", "Type"]
 
     newClassesList = [sortArray(array, order) for array in classesList]
 

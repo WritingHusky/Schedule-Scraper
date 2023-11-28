@@ -211,11 +211,6 @@ def main():
     
     class_data = get_data()
     class_data.pop(0) # remove header
-    
-    """
-    Will put in arguments to choose what format to save
-    Also will try to implement saving multiple sheets
-    """
 
     # Uncomment these lines to get the file you would like
     # build_schedule_all_by_Instructor(sheet, class_data)

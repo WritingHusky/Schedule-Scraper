@@ -33,6 +33,7 @@ pip install beautifulsoup4
 * A CSV file will be created of the data scraped from the file
 * Go to the Scheduler.py file 
     * At the bottom of the file in main(), uncomment one of the lines to choose what to schedule
+    * Line 216, 217, or 218
 * Run Scheduler.py
 * Choose the CSV file to make the Schedule off of
 * An xlsx (Excel) file will be made 

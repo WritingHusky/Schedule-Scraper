@@ -1,9 +1,7 @@
-from operator import itemgetter
 import tkinter
 from tkinter import filedialog
 from bs4 import BeautifulSoup
 import csv
-import argparse
 
 def sortArray(array, order):
     # Sort the array based on the specified order.

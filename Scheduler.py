@@ -209,7 +209,6 @@ def main():
     workbook = Workbook()
     sheet = workbook.active
     
-    
     class_data = get_data()
     class_data.pop(0) # remove header
     
@@ -218,10 +217,10 @@ def main():
     Also will try to implement saving multiple sheets
     """
 
-    
+    # Uncomment these lines to get the file you would like
     # build_schedule_all_by_Instructor(sheet, class_data)
     # build_schedule_all_by_Class(sheet, class_data)
-    # build_schedule_indvidual(sheet,class_data,"Mateen   Shaikh ")
+    # build_schedule_indvidual(sheet,class_data,instructor="Mateen   Shaikh ")
     workbook.save("Built_Schedule.xlsx")
     
 if __name__ == "__main__":
